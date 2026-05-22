@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Orbit Ring -->
+    <path
+        android:strokeColor="#33FFD700"
+        android:strokeWidth="1.5"
+        android:pathData="M 54 20 A 34 34 0 1 0 54 88 A 34 34 0 1 0 54 20 Z" />
+
+    <!-- Inner Orbit Ring -->
+    <path
+        android:strokeColor="#80FFD700"
+        android:strokeWidth="1"
+        android:pathData="M 54 30 A 24 24 0 1 0 54 78 A 24 24 0 1 0 54 30 Z" />
+
+    <!-- Secondary Star (Rotated 45 degrees) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="45">
+        <path
+            android:fillColor="#FFFFAB40"
+            android:pathData="M 54 34 L 56.5 51.5 L 74 54 L 56.5 56.5 L 54 74 L 51.5 56.5 L 34 54 L 51.5 51.5 Z" />
+    </group>
+
+    <!-- Main Star -->
+    <path
+        android:fillColor="#FFFFD700"
+        android:pathData="M 54 28 L 57 51 L 80 54 L 57 57 L 54 80 L 51 57 L 28 54 L 51 51 Z" />
+
+    <!-- Center Sun (Light Gold) -->
+    <path
+        android:fillColor="#FFFFE082"
+        android:pathData="M 54 50 A 4 4 0 1 0 54 58 A 4 4 0 1 0 54 50 Z" />
+
+    <!-- Orbiting Planet 1 (Outer Ring East) -->
+    <path
+        android:fillColor="#FFFFAB40"
+        android:pathData="M 88 51 A 3 3 0 1 0 88 57 A 3 3 0 1 0 88 51 Z" />
+        
+    <!-- Orbiting Planet 2 (Outer Ring West) -->
+    <path
+        android:fillColor="#FFFFE082"
+        android:pathData="M 20 51.5 A 2.5 2.5 0 1 0 20 56.5 A 2.5 2.5 0 1 0 20 51.5 Z" />
+
+    <!-- Orbiting Planet 3 (Inner Ring North) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 54 28 A 2 2 0 1 0 54 32 A 2 2 0 1 0 54 28 Z" />
+
+</vector>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cosmic Insights</string>
+    
+    <!-- Splash -->
+    <string name="splash_title">✦ Cosmic Insights ✦</string>
+    <string name="splash_subtitle">Discover Your Celestial Blueprint</string>
+    
+    <!-- Home -->
+    <string name="home_welcome">Welcome to Cosmic Insights</string>
+    <string name="home_subtitle">Explore the stars and discover your destiny</string>
+    <string name="home_generate_chart">Generate Birth Chart</string>
+    <string name="home_saved_charts">Saved Charts</string>
+    <string name="home_daily_insight">Today\'s Cosmic Insight</string>
+    
+    <!-- Birth Input -->
+    <string name="input_title">Birth Details</string>
+    <string name="input_subtitle">Enter your birth information to generate your Kundli</string>
+    <string name="input_name_label">Full Name</string>
+    <string name="input_name_hint">Enter your full name</string>
+    <string name="input_dob_label">Date of Birth</string>
+    <string name="input_dob_hint">Select date</string>
+    <string name="input_tob_label">Time of Birth</string>
+    <string name="input_tob_hint">Select time</string>
+    <string name="input_place_label">Place of Birth</string>
+    <string name="input_place_hint">Search city</string>
+    <string name="input_gender_label">Gender (Optional)</string>
+    <string name="input_gender_male">Male</string>
+    <string name="input_gender_female">Female</string>
+    <string name="input_gender_other">Other</string>
+    <string name="input_generate">Generate Kundli</string>
+    <string name="input_time_unknown">Time unknown</string>
+    <string name="input_time_warning">Using 12:00 PM as default. Chart accuracy may vary.</string>
+    
+    <!-- Validation -->
+    <string name="error_name_required">Name is required</string>
+    <string name="error_dob_required">Date of birth is required</string>
+    <string name="error_place_required">Place of birth is required</string>
+    <string name="error_future_date">Date cannot be in the future</string>
+    
+    <!-- Chart Result -->
+    <string name="chart_title">Birth Chart</string>
+    <string name="chart_tab_kundli">Kundli</string>
+    <string name="chart_tab_planets">Planets</string>
+    <string name="chart_tab_dasha">Dasha</string>
+    <string name="chart_ascendant">Ascendant (Lagna)</string>
+    <string name="chart_planetary_positions">Planetary Positions</string>
+    <string name="chart_save">Save Chart</string>
+    <string name="chart_saved_success">Chart saved successfully!</string>
+    <string name="chart_share">Share</string>
+    
+    <!-- Planet table headers -->
+    <string name="planet_header">Planet</string>
+    <string name="sign_header">Sign</string>
+    <string name="degree_header">Degree</string>
+    <string name="house_header">House</string>
+    <string name="nakshatra_header">Nakshatra</string>
+    <string name="retrograde_header">R</string>
+    
+    <!-- Planet names -->
+    <string name="planet_sun">Sun (Surya)</string>
+    <string name="planet_moon">Moon (Chandra)</string>
+    <string name="planet_mars">Mars (Mangal)</string>
+    <string name="planet_mercury">Mercury (Budh)</string>
+    <string name="planet_jupiter">Jupiter (Guru)</string>
+    <string name="planet_venus">Venus (Shukra)</string>
+    <string name="planet_saturn">Saturn (Shani)</string>
+    <string name="planet_rahu">Rahu</string>
+    <string name="planet_ketu">Ketu</string>
+    
+    <!-- Planet abbreviations -->
+    <string name="planet_abbr_sun">Su</string>
+    <string name="planet_abbr_moon">Mo</string>
+    <string name="planet_abbr_mars">Ma</string>
+    <string name="planet_abbr_mercury">Me</string>
+    <string name="planet_abbr_jupiter">Ju</string>
+    <string name="planet_abbr_venus">Ve</string>
+    <string name="planet_abbr_saturn">Sa</string>
+    <string name="planet_abbr_rahu">Ra</string>
+    <string name="planet_abbr_ketu">Ke</string>
+    
+    <!-- Zodiac sign names -->
+    <string name="sign_aries">Aries (Mesha)</string>
+    <string name="sign_taurus">Taurus (Vrishabha)</string>
+    <string name="sign_gemini">Gemini (Mithuna)</string>
+    <string name="sign_cancer">Cancer (Karka)</string>
+    <string name="sign_leo">Leo (Simha)</string>
+    <string name="sign_virgo">Virgo (Kanya)</string>
+    <string name="sign_libra">Libra (Tula)</string>
+    <string name="sign_scorpio">Scorpio (Vrishchika)</string>
+    <string name="sign_sagittarius">Sagittarius (Dhanu)</string>
+    <string name="sign_capricorn">Capricorn (Makara)</string>
+    <string name="sign_aquarius">Aquarius (Kumbha)</string>
+    <string name="sign_pisces">Pisces (Meena)</string>
+    
+    <!-- Sign abbreviations -->
+    <string name="sign_abbr_aries">Ar</string>
+    <string name="sign_abbr_taurus">Ta</string>
+    <string name="sign_abbr_gemini">Ge</string>
+    <string name="sign_abbr_cancer">Ca</string>
+    <string name="sign_abbr_leo">Le</string>
+    <string name="sign_abbr_virgo">Vi</string>
+    <string name="sign_abbr_libra">Li</string>
+    <string name="sign_abbr_scorpio">Sc</string>
+    <string name="sign_abbr_sagittarius">Sg</string>
+    <string name="sign_abbr_capricorn">Cp</string>
+    <string name="sign_abbr_aquarius">Aq</string>
+    <string name="sign_abbr_pisces">Pi</string>
+    
+    <!-- Dasha -->
+    <string name="dasha_title">Dasha Periods</string>
+    <string name="dasha_current">Current Dasha</string>
+    <string name="dasha_mahadasha">Mahadasha</string>
+    <string name="dasha_antardasha">Antardasha</string>
+    <string name="dasha_period">%1$s — %2$s</string>
+    
+    <!-- Planet Detail -->
+    <string name="detail_planet_in_sign">%1$s in %2$s</string>
+    <string name="detail_house_placement">House %1$d Placement</string>
+    <string name="detail_degree">%1$.1f°</string>
+    <string name="detail_retrograde">Retrograde ℞</string>
+    <string name="detail_direct">Direct</string>
+    
+    <!-- Sign Profile -->
+    <string name="profile_element">Element</string>
+    <string name="profile_quality">Quality</string>
+    <string name="profile_ruler">Ruling Planet</string>
+    <string name="profile_lucky_numbers">Lucky Numbers</string>
+    <string name="profile_lucky_color">Lucky Color</string>
+    <string name="profile_strengths">Strengths</string>
+    <string name="profile_weaknesses">Weaknesses</string>
+    <string name="profile_personality">Personality</string>
+    
+    <!-- Saved Charts -->
+    <string name="saved_title">Saved Charts</string>
+    <string name="saved_empty">No saved charts yet</string>
+    <string name="saved_empty_subtitle">Generate a birth chart and save it to see it here</string>
+    <string name="saved_delete">Delete</string>
+    <string name="saved_delete_confirm">Delete this chart?</string>
+    <string name="saved_delete_message">This action cannot be undone.</string>
+    <string name="saved_deleted">Chart deleted</string>
+    
+    <!-- General -->
+    <string name="action_back">Back</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_ok">OK</string>
+    <string name="loading">Calculating your cosmic blueprint…</string>
+</resources>

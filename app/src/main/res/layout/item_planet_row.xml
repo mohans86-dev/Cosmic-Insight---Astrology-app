@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/spacing_sm"
+    android:paddingHorizontal="@dimen/spacing_xs"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/tvPlanet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSign"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="@color/text_secondary" />
+
+    <TextView
+        android:id="@+id/tvDegree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:textColor="@color/text_secondary" />
+
+    <TextView
+        android:id="@+id/tvHouse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:id="@+id/tvNakshatra"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:textColor="@color/text_secondary" />
+
+    <TextView
+        android:id="@+id/tvRetrograde"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:textAlignment="center"
+        android:textColor="@color/status_negative"
+        android:textStyle="bold" />
+
+</LinearLayout>

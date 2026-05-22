@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.astrologyapp.ui.home.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_birthInput"
+            app:destination="@id/birthInputFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_savedCharts"
+            app:destination="@id/savedChartsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/birthInputFragment"
+        android:name="com.example.astrologyapp.ui.input.BirthInputFragment"
+        android:label="@string/input_title"
+        tools:layout="@layout/fragment_birth_input">
+        <action
+            android:id="@+id/action_birthInput_to_chartResult"
+            app:destination="@id/chartResultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chartResultFragment"
+        android:name="com.example.astrologyapp.ui.chart.ChartResultFragment"
+        android:label="@string/chart_title"
+        tools:layout="@layout/fragment_chart_result">
+        <argument
+            android:name="chartJson"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_chartResult_to_planetDetail"
+            app:destination="@id/planetDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_chartResult_to_signProfile"
+            app:destination="@id/signProfileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_chartResult_to_dashaTimeline"
+            app:destination="@id/dashaTimelineFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/planetDetailFragment"
+        android:name="com.example.astrologyapp.ui.detail.PlanetDetailFragment"
+        android:label="Planet Detail"
+        tools:layout="@layout/fragment_planet_detail">
+        <argument
+            android:name="planetName"
+            app:argType="string" />
+        <argument
+            android:name="chartJson"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signProfileFragment"
+        android:name="com.example.astrologyapp.ui.detail.SignProfileFragment"
+        android:label="Sign Profile"
+        tools:layout="@layout/fragment_sign_profile">
+        <argument
+            android:name="signName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashaTimelineFragment"
+        android:name="com.example.astrologyapp.ui.dasha.DashaTimelineFragment"
+        android:label="@string/dasha_title"
+        tools:layout="@layout/fragment_dasha_timeline">
+        <argument
+            android:name="chartJson"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/savedChartsFragment"
+        android:name="com.example.astrologyapp.ui.saved.SavedChartsFragment"
+        android:label="@string/saved_title"
+        tools:layout="@layout/fragment_saved_charts">
+        <action
+            android:id="@+id/action_savedCharts_to_chartResult"
+            app:destination="@id/chartResultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+</navigation>

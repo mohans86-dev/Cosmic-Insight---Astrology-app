@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary cosmic palette -->
+    <color name="cosmic_deep_navy">#FF0A0E27</color>
+    <color name="cosmic_indigo">#FF1A1B4B</color>
+    <color name="cosmic_purple">#FF2D1B69</color>
+    <color name="cosmic_dark_surface">#FF111340</color>
+    
+    <!-- Gold/Amber accents -->
+    <color name="cosmic_gold">#FFFFD700</color>
+    <color name="cosmic_amber">#FFFFAB40</color>
+    <color name="cosmic_gold_light">#FFFFE082</color>
+    <color name="cosmic_gold_dim">#80FFD700</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_tertiary">#66FFFFFF</color>
+    <color name="text_gold">#FFFFD700</color>
+    
+    <!-- Element colors (for zodiac elements) -->
+    <color name="element_fire">#FFFF6B35</color>
+    <color name="element_earth">#FF4CAF50</color>
+    <color name="element_air">#FF42A5F5</color>
+    <color name="element_water">#FF7E57C2</color>
+    
+    <!-- Status colors -->
+    <color name="status_positive">#FF66BB6A</color>
+    <color name="status_negative">#FFEF5350</color>
+    <color name="status_neutral">#FFFFEE58</color>
+    
+    <!-- Card/Surface -->
+    <color name="card_background">#FF1A1B4B</color>
+    <color name="card_background_elevated">#FF252766</color>
+    <color name="divider_color">#1AFFD700</color>
+    
+    <!-- Material theme colors -->
+    <color name="md_theme_dark_primary">#FFFFD700</color>
+    <color name="md_theme_dark_onPrimary">#FF0A0E27</color>
+    <color name="md_theme_dark_primaryContainer">#FF2D1B69</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFFFE082</color>
+    <color name="md_theme_dark_secondary">#FFFFAB40</color>
+    <color name="md_theme_dark_onSecondary">#FF0A0E27</color>
+    <color name="md_theme_dark_secondaryContainer">#FF1A1B4B</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFFFCC80</color>
+    <color name="md_theme_dark_background">#FF0A0E27</color>
+    <color name="md_theme_dark_onBackground">#FFFFFFFF</color>
+    <color name="md_theme_dark_surface">#FF0A0E27</color>
+    <color name="md_theme_dark_onSurface">#FFFFFFFF</color>
+    <color name="md_theme_dark_surfaceVariant">#FF1A1B4B</color>
+    <color name="md_theme_dark_onSurfaceVariant">#B3FFFFFF</color>
+    <color name="md_theme_dark_error">#FFEF5350</color>
+    <color name="md_theme_dark_onError">#FF0A0E27</color>
+    <color name="md_theme_dark_outline">#33FFD700</color>
+</resources>
