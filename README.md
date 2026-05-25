@@ -3,6 +3,7 @@
 <p align="center">
   <em>Discover Your Celestial Blueprint</em>
 </p>
+
 ---
 
 ## 🌌 About
@@ -37,17 +38,15 @@
 <!-- Add your screenshot files to a /screenshots folder in the repo root -->
 
 <p align="center">
-  <img src="screenshots/splash.png" width="200" alt="Splash Screen">
-  <img src="screenshots/home.png" width="200" alt="Home Screen">
-  <img src="screenshots/birth_input.png" width="200" alt="Birth Input">
-  <img src="screenshots/kundli_chart.png" width="200" alt="Kundli Chart">
+  <img width="1408" height="2974" alt="splash" src="https://github.com/user-attachments/assets/5f14fca1-e44f-4c17-be9c-7430390304fa" />
+  <img width="1408" height="2974" alt="home" src="https://github.com/user-attachments/assets/a224d3b8-dcf9-42a3-88c1-a78ce788c013" />
+  <img width="1408" height="2974" alt="birth-input" src="https://github.com/user-attachments/assets/d9081f6c-d19f-40ff-9d88-d245a70eaba2" />
+  <img width="1408" height="2974" alt="kundli-chart" src="https://github.com/user-attachments/assets/fb4d50a7-1bc7-47ec-b46b-f0b2320bc827" />
 </p>
 
 <p align="center">
-  <img src="screenshots/planet_positions.png" width="200" alt="Planet Positions">
-  <img src="screenshots/planet_detail.png" width="200" alt="Planet Detail">
-  <img src="screenshots/sign_profile.png" width="200" alt="Sign Profile">
-  <img src="screenshots/dasha_timeline.png" width="200" alt="Dasha Timeline">
+  <img width="1408" height="2974" alt="planet-details" src="https://github.com/user-attachments/assets/153da431-7612-4d8d-beec-5842f3ad1aa7" />
+  <img width="1408" height="2974" alt="dasha-timeline" src="https://github.com/user-attachments/assets/469fec3d-682f-4c81-ad24-c94ffcd193ff" />
 </p>
 
 ---
