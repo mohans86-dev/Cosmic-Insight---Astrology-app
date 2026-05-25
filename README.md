@@ -38,15 +38,15 @@
 <!-- Add your screenshot files to a /screenshots folder in the repo root -->
 
 <p align="center">
-  <img width="1408" height="2974" alt="splash" src="https://github.com/user-attachments/assets/5f14fca1-e44f-4c17-be9c-7430390304fa" />
-  <img width="1408" height="2974" alt="home" src="https://github.com/user-attachments/assets/a224d3b8-dcf9-42a3-88c1-a78ce788c013" />
-  <img width="1408" height="2974" alt="birth-input" src="https://github.com/user-attachments/assets/d9081f6c-d19f-40ff-9d88-d245a70eaba2" />
-  <img width="1408" height="2974" alt="kundli-chart" src="https://github.com/user-attachments/assets/fb4d50a7-1bc7-47ec-b46b-f0b2320bc827" />
+  <img width="217" height="458" alt="splash" src="https://github.com/user-attachments/assets/a6c18d79-4364-4adb-97d3-5fa8e1c1c45e" />
+  <img width="217" height="458" alt="home" src="https://github.com/user-attachments/assets/7ba1b32c-ec1d-40c1-98cf-0ef6d45ff145" />
+  <img width="217" height="458" alt="birth-input" src="https://github.com/user-attachments/assets/7625526b-f6df-4105-aff8-7e8a432fb190" />
+  <img width="217" height="458" alt="kundli-chart" src="https://github.com/user-attachments/assets/318be703-2203-43b3-8005-f9f1e0e121f3" />
 </p>
 
 <p align="center">
-  <img width="1408" height="2974" alt="planet-details" src="https://github.com/user-attachments/assets/153da431-7612-4d8d-beec-5842f3ad1aa7" />
-  <img width="1408" height="2974" alt="dasha-timeline" src="https://github.com/user-attachments/assets/469fec3d-682f-4c81-ad24-c94ffcd193ff" />
+  <img width="217" height="458" alt="planet-details" src="https://github.com/user-attachments/assets/9f0dc87c-609d-44df-88b3-326ebeef6183" />
+  <img width="217" height="458" alt="dasha-timeline" src="https://github.com/user-attachments/assets/4b2cf98f-2f0c-4867-94ab-7cc2e10e4b8d" />
 </p>
 
 ---
